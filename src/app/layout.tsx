@@ -1,6 +1,7 @@
 import { Montserrat, PT_Serif } from "next/font/google";
 import { Metadata } from "next";
 import { ReactNode, JSX } from "react";
+import './globals.css';
 
 type LayoutProps = {
   children: ReactNode;
